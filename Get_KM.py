@@ -69,7 +69,7 @@ if dt.today().weekday() == 0:
 else:
     td_dset = dset[dset["Dt Renov"] == dt.today().strftime(r"%Y-%m-%d")]
 
-link = "https://www.libertyautocontrole.com.br/administration/customer/customer/"
+link = "link"
 print(dt.today())
 print(dset.head(1)["Dt Renov"])
 # Looping com a tebela filtrada de clientes com data renovação = hoje
